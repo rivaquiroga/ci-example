@@ -9,6 +9,7 @@ def factorial(n):
         raise ValueError('Only use non-negative integers.')
 
     factorial = 1
+    
     for i in range(1, n + 1):
         factorial = factorial * i
     return factorial
